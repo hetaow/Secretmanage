@@ -1,0 +1,48 @@
+package commom.demo;
+/*
+ * 维护人员管理附件上传
+ * */
+public class Accessories {
+	private int protectId; //维护人员附件上传ID
+	private int vindicatorID;//维护人员ID
+	private String untils;//工作单位
+	private String lineFilesName;//文件真实名称
+	private String filesContentType;//文件的内容类型
+	private String filesName;//附件上传的文件名称
+	public int getProtectId() {
+		return protectId;
+	}
+	public void setProtectId(int protectId) {
+		this.protectId = protectId;
+	}
+	public int getVindicatorID() {
+		return vindicatorID;
+	}
+	public void setVindicatorID(int vindicatorID) {
+		this.vindicatorID = vindicatorID;
+	}
+	public String getUntils() {
+		return untils;
+	}
+	public void setUntils(String untils) {
+		this.untils = untils;
+	}
+	public String getLineFilesName() {
+		return lineFilesName;
+	}
+	public void setLineFilesName(String lineFilesName) {
+		this.lineFilesName = lineFilesName;
+	}
+	public String getFilesContentType() {
+		return filesContentType;
+	}
+	public void setFilesContentType(String filesContentType) {
+		this.filesContentType = filesContentType;
+	}
+	public String getFilesName() {
+		return filesName;
+	}
+	public void setFilesName(String filesName) {
+		this.filesName = filesName;
+	}
+}
